@@ -59,9 +59,6 @@ const Navbar = () => {
               easing: "ease-in",
               duration: 500,
             }),
-          "&:hover": {
-            cursor: "pointer",
-          },
         }}
       >
         <Link
@@ -76,6 +73,7 @@ const Navbar = () => {
             textDecoration: "none",
             marginRight: 70,
             color: `${show ? Colors.primary : Colors.secondary}`,
+            cursor: "pointer",
           }}
         >
           <Typography
@@ -108,6 +106,7 @@ const Navbar = () => {
               color: `${show ? Colors.primary : Colors.secondary}`,
               alignContent: "center",
               justifyContent: "center",
+              cursor: "pointer",
             }}
           >
             <Typography
@@ -133,6 +132,7 @@ const Navbar = () => {
               color: `${show ? Colors.primary : Colors.secondary}`,
               alignContent: "center",
               justifyContent: "center",
+              cursor: "pointer",
             }}
           >
             <Typography
@@ -157,6 +157,7 @@ const Navbar = () => {
               color: `${show ? Colors.primary : Colors.secondary}`,
               alignContent: "center",
               justifyContent: "center",
+              cursor: "pointer",
             }}
           >
             <Typography
@@ -216,6 +217,7 @@ const Navbar = () => {
                 height: "33vh",
                 alignContent: "center",
                 justifyContent: "center",
+                cursor: "pointer",
               }}
             >
               <Typography
@@ -241,6 +243,7 @@ const Navbar = () => {
                 height: "33vh",
                 alignContent: "center",
                 justifyContent: "center",
+                cursor: "pointer",
               }}
             >
               <Typography
@@ -265,6 +268,7 @@ const Navbar = () => {
                 height: "33vh",
                 alignContent: "center",
                 justifyContent: "center",
+                cursor: "pointer",
               }}
             >
               <Typography
