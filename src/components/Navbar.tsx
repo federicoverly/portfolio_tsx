@@ -6,7 +6,7 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import { Colors } from "../styles/globalStyles";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -97,6 +97,7 @@ const Navbar = () => {
             to="portfolio"
             spy={true}
             smooth={true}
+            offset={-80}
             style={{
               display: "flex",
               alignItems: "center",
