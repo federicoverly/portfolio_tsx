@@ -1,11 +1,11 @@
 import { Box } from "@mui/material";
 import React from "react";
-import { Home } from "./components/Home";
-import Navbar from "./components/Navbar";
-import { Portfolio } from "./components/Portfolio";
+import { Home } from "./Containers/Home";
+import { Navbar } from "./Containers/Navbar";
+import { Portfolio } from "./Containers/Portfolio";
 import { Colors } from "./styles/globalStyles";
 
-function App() {
+export const App = () => {
   return (
     <Box
       sx={{
@@ -20,6 +20,6 @@ function App() {
       <Portfolio />
     </Box>
   );
-}
+};
 
-export default App;
+App.displayName = "App";
