@@ -1,9 +1,12 @@
 import { Box } from "@mui/system";
 import React, { useEffect, useState } from "react";
+import { SectionSubtitle } from "../components/Common/SectionSubtitle";
 import { SectionTitle } from "../components/Common/SectionTitle";
+import { DeploysContainer } from "../components/Portfolio/DeploysContainer";
 import { Video } from "../components/Portfolio/Video";
-import VideosContainer from "../components/Portfolio/VideosContainer";
-import { videos } from "../utils/data";
+import { VideosContainer } from "../components/Portfolio/VideosContainer";
+import { deploys, videos } from "../utils/data";
+import { Deploy } from "../components/Portfolio/Deploy";
 
 export const Portfolio = () => {
   const [windowSize, setWindowSize] = useState(getWindowSize());
@@ -47,6 +50,12 @@ export const Portfolio = () => {
           />
         ))}
       </VideosContainer>
+      <SectionSubtitle title="Try some live projects" />
+      <DeploysContainer>
+        {deploys.map((deploy, index) => (
+          <Deploy key={index} title={deploy.title} url={deploy.link} />
+        ))}
+      </DeploysContainer>
     </Box>
   );
 };

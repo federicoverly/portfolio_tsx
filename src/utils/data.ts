@@ -67,8 +67,12 @@ export const deploys = [
     link: "https://next-tiktok-clone-eight.vercel.app/",
   },
   {
-    title: "Rental",
+    title: "Cottage Rental",
     link: "https://delarroyotandil.com/about-us",
+  },
+  {
+    title: "Photographer Portfolio",
+    link: "https://ninacapturesmoments.com",
   },
   {
     title: "Ecommerce",
@@ -89,9 +93,5 @@ export const deploys = [
   {
     title: "Discord clone",
     link: "https://discord-clone-djnb9ij1d-federicoverly.vercel.app/",
-  },
-  {
-    title: "Next typescript example",
-    link: "https://next-typescript-example-neon.vercel.app/",
   },
 ];

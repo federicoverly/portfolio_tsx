@@ -3,15 +3,9 @@ import React, { ReactNode } from "react";
 
 export interface IProps {
   children: ReactNode;
-  windowSize: WindowSize;
 }
 
-export type WindowSize = {
-  innerWidth: number;
-  innerHeight: number;
-};
-
-export const VideosContainer = ({ children, windowSize }: IProps) => {
+export const DeploysContainer = ({ children }: IProps) => {
   return (
     <Box
       sx={{
@@ -19,8 +13,7 @@ export const VideosContainer = ({ children, windowSize }: IProps) => {
         alignItems: "center",
         justifyContent: "center",
         width: "100%",
-        flexWrap: "wrap",
-        flexDirection: windowSize.innerWidth < 500 ? "column" : "row",
+        flexDirection: "column",
       }}
     >
       {children}
@@ -28,4 +21,4 @@ export const VideosContainer = ({ children, windowSize }: IProps) => {
   );
 };
 
-VideosContainer.displayName = "VideosContainer";
+DeploysContainer.displayName = "DeploysContainer";

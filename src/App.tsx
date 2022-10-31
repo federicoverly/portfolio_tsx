@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
+import { About } from "./Containers/About";
 import { Home } from "./Containers/Home";
 import { Navbar } from "./Containers/Navbar";
 import { Portfolio } from "./Containers/Portfolio";
@@ -18,6 +19,7 @@ export const App = () => {
       <Navbar />
       <Home />
       <Portfolio />
+      <About />
     </Box>
   );
 };
