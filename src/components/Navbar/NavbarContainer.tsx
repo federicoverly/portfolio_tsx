@@ -54,16 +54,22 @@ export const NavbarContainer = () => {
       <NavbarLinksContainer>
         <NavbarLink
           show
-          to="portfolio"
+          to={"portfolio"}
+          title={"Portfolio"}
           offset={-80}
-          title="Portfolio"
           toggleDrawer={toggleDrawer}
         />
-        <NavbarLink show to="about" title="About" toggleDrawer={toggleDrawer} />
         <NavbarLink
           show
-          to="contact"
-          title="Contact"
+          to={"about"}
+          title={"About"}
+          toggleDrawer={toggleDrawer}
+        />
+        <NavbarLink
+          show
+          to={"contact"}
+          title={"Contact"}
+          offset={-80}
           toggleDrawer={toggleDrawer}
         />
       </NavbarLinksContainer>
@@ -73,6 +79,7 @@ export const NavbarContainer = () => {
           <DrawerLink
             to={"portfolio"}
             title={"Portfolio"}
+            offset={-40}
             toggleDrawer={toggleDrawer(false)}
           />
           <DrawerLink

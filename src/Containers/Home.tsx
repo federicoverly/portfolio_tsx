@@ -12,6 +12,7 @@ export const Home = () => {
         justifyContent: "center",
         height: "100vh",
         textAlign: "center",
+        width: "90vw",
       }}
     >
       <CustomTypeAnimation />

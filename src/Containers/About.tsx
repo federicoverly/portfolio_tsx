@@ -13,7 +13,6 @@ export const About = () => {
         flexDirection: "column",
         justifyContent: "center",
         width: "90vw",
-        marginTop: 20,
       }}
     >
       <SectionTitle title="About me" />

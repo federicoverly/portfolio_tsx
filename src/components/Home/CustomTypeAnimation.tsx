@@ -14,7 +14,7 @@ export const CustomTypeAnimation = () => {
       wrapper="div"
       cursor={true}
       repeat={Infinity}
-      style={{ fontSize: "2em", color: Colors.secondary }}
+      style={{ fontSize: "2em", color: Colors.secondary, width: "90%" }}
     />
   );
 };

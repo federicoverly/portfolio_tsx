@@ -12,10 +12,12 @@ export const SectionTitle = ({ title }: IProps) => {
       fontFamily="Raleway"
       fontWeight={800}
       variant="h1"
+      textAlign="center"
       sx={{
         fontSize: { xs: 14, md: 24 },
         color: Colors.secondary,
         marginBottom: { xs: 3, md: 10 },
+        marginTop: { xs: 3, md: 10 },
         textTransform: "uppercase",
       }}
     >
