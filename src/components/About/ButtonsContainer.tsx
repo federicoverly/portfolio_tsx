@@ -33,9 +33,9 @@ export const ButtonsContainer = () => {
       />
       {open2 && (
         <ButtonAnswer
-          text="I have worked for the Ianu team as a freelance front-end developer
+          text="I am working as a Frontend developer for Hydrogrid. Before, I have worked for the Ianu team as a freelance Frontend developer
         both for React and React Native. I am also a React JS coordinator
-        and tutor at CoderHouse as well. And yes, I have developed websites!"
+        and tutor at CoderHouse as well!"
         />
       )}
       <AboutButton
