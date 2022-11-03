@@ -3,25 +3,25 @@ import React from "react";
 import { Colors } from "../../styles/globalStyles";
 
 export interface IProps {
-  title: string;
+  text: string;
 }
 
-export const SectionTitle = ({ title }: IProps) => {
+export const ButtonAnswer = ({ text }: IProps) => {
   return (
     <Typography
+      variant="h5"
       fontFamily="Raleway"
-      fontWeight={800}
-      variant="h1"
+      fontWeight={200}
       sx={{
-        fontSize: { xs: 14, md: 24 },
+        fontSize: { xs: 9, md: 18 },
         color: Colors.secondary,
-        marginBottom: { xs: 3, md: 10 },
-        textTransform: "uppercase",
+        marginBottom: 1,
+        textAlign: "center",
       }}
     >
-      {title}
+      {text}
     </Typography>
   );
 };
 
-SectionTitle.displayName = "SectionTitle";
+ButtonAnswer.displayName = "ButtonAnswer";

@@ -43,7 +43,7 @@ export const Portfolio = () => {
       <VideosContainer windowSize={windowSize}>
         {videos.map((video, index) => (
           <Video
-            key={index}
+            videoKey={index}
             title={video.title}
             video={video.video}
             windowSize={windowSize}
@@ -53,7 +53,7 @@ export const Portfolio = () => {
       <SectionSubtitle title="Try some live projects" />
       <DeploysContainer>
         {deploys.map((deploy, index) => (
-          <Deploy key={index} title={deploy.title} url={deploy.link} />
+          <Deploy deployKey={index} title={deploy.title} url={deploy.link} />
         ))}
       </DeploysContainer>
     </Box>

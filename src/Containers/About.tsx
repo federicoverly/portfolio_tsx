@@ -1,5 +1,7 @@
 import { Box } from "@mui/material";
-import React from "react";
+import { SectionTitle } from "../components/Common/SectionTitle";
+import { ButtonsContainer } from "../components/About/ButtonsContainer";
+import { Fingerprint } from "../components/About/Fingerprint";
 
 export const About = () => {
   return (
@@ -11,8 +13,13 @@ export const About = () => {
         flexDirection: "column",
         justifyContent: "center",
         width: "90vw",
+        marginTop: 20,
       }}
-    ></Box>
+    >
+      <SectionTitle title="About me" />
+      <ButtonsContainer />
+      <Fingerprint />
+    </Box>
   );
 };
 

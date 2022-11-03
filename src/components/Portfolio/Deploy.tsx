@@ -4,14 +4,14 @@ import React from "react";
 import { Colors } from "../../styles/globalStyles";
 
 export interface IProps {
-  key: number;
+  deployKey: number;
   title: string;
   url: string;
 }
 
-export const Deploy = ({ key, title, url }: IProps) => {
+export const Deploy = ({ deployKey, title, url }: IProps) => {
   return (
-    <Box key={key}>
+    <Box key={deployKey}>
       <Typography
         fontFamily="Raleway"
         fontWeight={200}
