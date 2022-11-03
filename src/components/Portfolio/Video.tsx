@@ -1,9 +1,7 @@
 import { Box, Typography } from "@mui/material";
-import React from "react";
 import { Colors } from "../../styles/globalStyles";
 
 export interface IProps {
-  videoKey: number;
   title: string;
   video: string;
   windowSize: WindowSize;
@@ -14,10 +12,9 @@ export type WindowSize = {
   innerHeight: number;
 };
 
-export const Video = ({ videoKey, title, video, windowSize }: IProps) => {
+export const Video = ({ title, video, windowSize }: IProps) => {
   return (
     <Box
-      key={videoKey}
       sx={{
         display: "flex",
         alignItems: "center",

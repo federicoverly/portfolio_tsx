@@ -1,17 +1,15 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import React from "react";
 import { Colors } from "../../styles/globalStyles";
 
 export interface IProps {
-  deployKey: number;
   title: string;
   url: string;
 }
 
-export const Deploy = ({ deployKey, title, url }: IProps) => {
+export const Deploy = ({ title, url }: IProps) => {
   return (
-    <Box key={deployKey}>
+    <Box>
       <Typography
         fontFamily="Raleway"
         fontWeight={200}

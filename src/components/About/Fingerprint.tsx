@@ -1,5 +1,4 @@
 import { Box } from "@mui/material";
-import React from "react";
 import FingerprintIcon from "@mui/icons-material/Fingerprint";
 import { Colors } from "../../styles/globalStyles";
 

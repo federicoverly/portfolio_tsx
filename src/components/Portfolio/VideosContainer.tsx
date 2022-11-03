@@ -1,8 +1,8 @@
 import { Box } from "@mui/system";
-import React, { ReactNode } from "react";
+import { videos } from "../../utils/data";
+import { Video } from "./Video";
 
 export interface IProps {
-  children: ReactNode;
   windowSize: WindowSize;
 }
 
@@ -11,7 +11,7 @@ export type WindowSize = {
   innerHeight: number;
 };
 
-export const VideosContainer = ({ children, windowSize }: IProps) => {
+export const VideosContainer = ({ windowSize }: IProps) => {
   return (
     <Box
       sx={{
@@ -23,7 +23,14 @@ export const VideosContainer = ({ children, windowSize }: IProps) => {
         flexDirection: windowSize.innerWidth < 500 ? "column" : "row",
       }}
     >
-      {children}
+      {videos.map((video, index) => (
+        <Video
+          key={index}
+          title={video.title}
+          video={video.video}
+          windowSize={windowSize}
+        />
+      ))}
     </Box>
   );
 };

@@ -1,5 +1,5 @@
 import { Toolbar } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Colors } from "../../styles/globalStyles";
 import { CustomDrawer } from "./CustomDrawer";
 import { DrawerLink } from "./DrawerLink";

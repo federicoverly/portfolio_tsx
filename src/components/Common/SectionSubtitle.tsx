@@ -1,5 +1,4 @@
 import { Typography } from "@mui/material";
-import React from "react";
 import { Colors } from "../../styles/globalStyles";
 
 export interface IProps {

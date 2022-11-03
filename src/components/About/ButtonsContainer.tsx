@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import React, { useState } from "react";
+import { useState } from "react";
 import { AboutButton } from "./AboutButton";
 import { ButtonAnswer } from "./ButtonAnswer";
 

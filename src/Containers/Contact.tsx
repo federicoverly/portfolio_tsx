@@ -1,5 +1,4 @@
 import { Box } from "@mui/material";
-import React from "react";
 import { SectionTitle } from "../components/Common/SectionTitle";
 import { Description } from "../components/Contact/Description";
 

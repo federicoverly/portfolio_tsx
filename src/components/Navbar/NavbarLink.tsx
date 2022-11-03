@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-import React, { MouseEventHandler } from "react";
+import { MouseEventHandler } from "react";
 import { Link } from "react-scroll";
 import { Colors } from "../../styles/globalStyles";
 

@@ -1,5 +1,4 @@
 import { Box } from "@mui/system";
-import React from "react";
 import { CustomTypeAnimation } from "../components/Home/CustomTypeAnimation";
 
 export const Home = () => {

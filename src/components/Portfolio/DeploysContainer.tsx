@@ -1,11 +1,8 @@
 import { Box } from "@mui/system";
-import React, { ReactNode } from "react";
+import { deploys } from "../../utils/data";
+import { Deploy } from "./Deploy";
 
-export interface IProps {
-  children: ReactNode;
-}
-
-export const DeploysContainer = ({ children }: IProps) => {
+export const DeploysContainer = () => {
   return (
     <Box
       sx={{
@@ -16,7 +13,9 @@ export const DeploysContainer = ({ children }: IProps) => {
         flexDirection: "column",
       }}
     >
-      {children}
+      {deploys.map((deploy, index) => (
+        <Deploy key={index} title={deploy.title} url={deploy.link} />
+      ))}
     </Box>
   );
 };

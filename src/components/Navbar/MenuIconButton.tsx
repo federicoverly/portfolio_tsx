@@ -1,5 +1,5 @@
 import { IconButton } from "@mui/material";
-import React, { MouseEventHandler } from "react";
+import { MouseEventHandler } from "react";
 import { Colors } from "../../styles/globalStyles";
 import MenuIcon from "@mui/icons-material/Menu";
 

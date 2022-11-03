@@ -1,5 +1,5 @@
 import { Box } from "@mui/system";
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 
 export interface IProps {
   children: ReactNode;

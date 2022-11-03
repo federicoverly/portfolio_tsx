@@ -1,5 +1,5 @@
 import { Drawer } from "@mui/material";
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import { Colors } from "../../styles/globalStyles";
 
 export interface IProps {
