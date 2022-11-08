@@ -14,7 +14,7 @@ export const Fingerprint = () => {
         }}
         onClick={() =>
           window.open(
-            "https://drive.google.com/file/d/1-nGG0JOmzSF5Lz5Sg1Ky_HNGU6jpZFOf/view?usp=sharing"
+            "https://drive.google.com/file/d/1RE23Qs0DahLVxFywueUgon_IfwWbuSTy/view?usp=sharing"
           )
         }
       />
